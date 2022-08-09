@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,700&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #FFEDD5; /* hex:0-5 */
+  font-family: 'Roboto', serif;
+}
+
+ul{
+  list-style: none;
+}
+
+header{
+  padding: 32px 0;
+  text-align: center;
+}
+
+header,
+section{
+  max-width: 300px;
+  margin: 0 auto
+}
+
+
+header h1{
+  margin-bottom: 4px;
+  font-size: 28px;
+}
+
+header h1 span{
+  color: #995000
+}
+
+h1,
+h2,
+h3,
+.price{
+  text-transform: uppercase;
+  font-family: 'Roboto Serif', serif;
+  color: #2D2C2A;
+}
+
+section{
+  margin-bottom: 24px;
+}
+
+section h2{
+  background-color: #FED7AA;
+  padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+ul li{
+  margin-bottom: 16px;
+  display: flex;
+}
+
+li .details{
+  max-width: 240px;
+}
+
+
+li h3, .price{
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.details p{
+  font-size: 14px;
+}
