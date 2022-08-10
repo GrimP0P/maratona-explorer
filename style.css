@@ -63,7 +63,7 @@ ul li{
 }
 
 ul li:hover .price{
-  animation: show 3s infinite alternate;
+  animation: show 1s infinite alternate;
 }
 
 li .details{
@@ -78,13 +78,11 @@ li h3, .price{
 
 @keyframes show{
   from{
-    transform: translateY(0px);
-    font-size: 16px;
+      transform: scale(1);
   }
   to{
-    transform: translateY(-3px);
-    font-size: 19px;
-    color: #995000;
+    transform: scale(1.2);
+    color: red;
   }
 }
 
