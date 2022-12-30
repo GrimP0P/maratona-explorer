@@ -64,6 +64,8 @@ ul li{
 
 ul li:hover .price{
   animation: show 1s infinite alternate;
+  
+}
 
 li .details{
   max-width: 240px;
